@@ -9,6 +9,24 @@
     padding: 8px;
 }
 
+#search-input {
+    width: calc(100% - 16px);
+    margin: 0 8px 10px 8px;
+    padding: 6px;
+    border: 1px solid #00254d;
+    border-radius: 4px;
+    font-size: 13px;
+    box-sizing: border-box;
+    color: #314d3e;
+    background-color: white;
+    font-family: inherit;
+}
+
+#search-input:focus {
+    outline: none;
+    border-color: #314d3e;
+}
+
 .bookmarks {
     margin: 5px 5px;
     padding: 3px;
